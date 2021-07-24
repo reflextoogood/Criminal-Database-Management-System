@@ -1,0 +1,428 @@
+
+#for_slide{
+    margin: 0;
+    display: flex;
+}
+#slides{
+    margin: 2.5% 0% 2.5% 2.5%;
+    width: 130vh;
+}
+
+body{
+    background-color: #181818;
+} 
+#navigation_bar {
+    background-color: #181818;
+    margin: 0;
+}
+
+#navigation_bar a {
+    color: white;
+}
+
+#navigation_bar a:hover {
+    border-bottom: 3px solid #273a7f;
+}
+
+
+#navigation_bar a:focus {
+    border-bottom: 3px solid #273a7f;
+}
+
+#navigation_bar a:active {
+    border-bottom: 3px solid #273a7f;
+}
+
+#nav_drop a:hover {
+    color: #273a7f;
+    background-color: #181818;
+    border-bottom: none;
+}
+
+#nav_drop a {
+    color: white;
+    border-bottom: none;
+}
+
+.para1{
+    padding: 10px;
+    margin: 2.5% 0% 2.5% 2.5%;
+    width: 27%;
+    color: #ffffff;
+}
+hr {
+    background-color: #273a7f;
+}
+
+h5{
+    color:white;
+}
+/* <!--                                           hello   --> */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+/* From here for the login page */
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  
+
+}
+
+form,.content{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+/* errors style  */
+.error{
+  width: 92%;
+  margin: 0px auto 7px auto;
+  padding-left: 0px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success{
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+/*        Bar Graph for the Crime Rate*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
+.wrap html, body,div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.wrap html {
+  line-height: 1;
+}
+
+.wrap ol, ul {
+  list-style: none;
+}
+
+.wrap table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.wrap q, blockquote {
+  quotes: none;
+}
+.wrap q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+.wrap a img {
+  border: none;
+}
+
+.wrap article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.wrap  {
+  box-sizing: border-box;
+}
+
+ .wrap body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+  padding: 2%;
+}
+
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.wrap h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #dadada;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.wrap ul li {
+  line-height: 2;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: .85em;
+  text-transform: uppercase;
+  clear: both;
+}
+.wrap ul li:before {
+  content: "\2023";
+  padding: 0 1em 0 0;
+}
+
+.bar {
+  background: #e74c3c;
+  width: 0;
+  margin: .25em 0;
+  color: #fff;
+  position: relative;
+  transition: width 2s, background .2s;
+  --webkit-transform: translate3d(0, 0, 0);
+  clear: both;
+}
+.bar:nth-of-type(2n) {
+  background: #ed7669;
+}
+.bar .label {
+  font-size: .75em;
+  padding: 1em;
+  background: #3d3d3d;
+  width: 8em;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.bar .label.light {
+  background: #575757;
+}
+
+.count {
+  position: absolute;
+  right: .25em;
+  top: .75em;
+  padding: .15em;
+  font-size: .75em;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+/* end of Bar Graph*/
+
+/*   Pie chart cyber crime               */
+.chartdiv {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  width: 100%;
+  height: 500px;
+  
+}
+/*  End  Pie chart cyber crime               */
+
+
